@@ -7,7 +7,6 @@ class ApplicationController < ActionController::API
 
   def auth_header
     # { Authorization: 'Bearer <token>' }
-    ##### ADD BYEBUG HERE AND CHECK THE REQUEST
     request.headers['Authorization']
   end
 
